@@ -1,0 +1,21 @@
+.styles {
+  @media screen and (min-width: 767px) {
+    display: flex;
+    div {
+      display: flex;
+      width: 100% !important;
+    }
+    table {
+      table-layout: fixed;
+    }
+    table > tbody > tr {
+      display: table-row;
+      table-layout: fixed;
+      width: 100%;
+    }
+    table > tbody > tr > td {
+      display: table-cell;
+      min-width: calc(100% / var(--num-columns));
+    }
+  }
+}

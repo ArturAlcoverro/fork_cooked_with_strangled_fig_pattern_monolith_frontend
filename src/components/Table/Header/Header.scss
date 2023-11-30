@@ -1,0 +1,15 @@
+.header-styles {
+    svg {
+        position: relative;
+        left: 3px;
+        margin-top: 1px;
+    }
+    
+    &.inverted svg {
+        transform: rotate(180deg)
+    }
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,2 @@
+# cooked_with_strangled_fig_pattern_monolith_frontend
+Frontend del monolito

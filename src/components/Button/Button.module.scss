@@ -1,0 +1,45 @@
+.button {
+  border-radius: .5rem;
+  padding: .35rem 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+  svg {
+    width: .85rem;
+    height: auto;
+    margin-right: .75rem;
+  }
+
+  &--primary {
+    border: none;
+    background-color: var(--primary-color-500);
+    color: white;
+
+    svg {
+      fill: white;
+    }
+
+    &:hover {
+      background-color: var(--primary-color-600);
+    }
+  }
+
+  &--secondary {
+    border: 1px solid #76748281;
+    background-color: transparent;
+    color: #494853;
+
+    svg {
+      fill: #494853;
+    }
+
+    &:hover {
+      background-color: #76748241;
+    }
+  }
+
+  &--no-border {
+    border: none;
+  }
+}

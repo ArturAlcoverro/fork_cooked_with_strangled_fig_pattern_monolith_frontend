@@ -1,0 +1,14 @@
+.modal{
+  border: none;
+  padding: 0;
+  background-color: transparent;
+
+  &>div{
+    background-color: white;
+  }
+
+  &::backdrop{
+    background-color: hsla(219, 42%, 11%, 0.85);
+    backdrop-filter: blur(3px);
+  }
+}

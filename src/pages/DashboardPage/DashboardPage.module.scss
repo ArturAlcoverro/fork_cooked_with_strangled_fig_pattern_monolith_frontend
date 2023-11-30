@@ -1,0 +1,35 @@
+.styles {
+  @media (min-width: 1024px) and (max-width: 1366px) {
+    .barchart_container {
+      height: 50% !important;
+      width: 80% !important;
+    }
+  }
+  @media (min-width: 1367px) {
+    .barchart_container {
+      height: 50% !important;
+      width: 80% !important;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .barchart_container {
+      height: 40% !important;
+      width: 80% !important;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .barchart_container {
+      height: 40% !important;
+      width: 80% !important;
+    }
+  }
+  .container {
+    padding: 1.75rem;
+
+    h1 {
+      margin-bottom: 24px;
+    }
+  }
+}

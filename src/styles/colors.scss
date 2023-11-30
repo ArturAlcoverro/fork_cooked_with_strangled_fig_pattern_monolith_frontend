@@ -1,0 +1,31 @@
+:root {
+  --background-color-300: hsl(0, 0%, 100%);
+  --background-color-400: hsl(210, 20%, 98%, 1);
+  --background-color-500: hsl(210, 29%, 97%);
+  --background-color-600: hsl(220, 13%, 91%, 1);
+
+  --primary-color-100: hsla(141, 84.2%, 92.5%, 1);
+  --primary-color-200: hsla(141, 78.9%, 85.1%, 1);
+  --primary-color-300: hsla(141, 76.5%, 73.3%, 1);
+  --primary-color-400: hsla(142, 69.3%, 57.8%, 1);
+  --primary-color-500: hsla(142, 70.6%, 45.3%, 1);
+  --primary-color-600: hsla(142, 75.3%, 36.5%, 1);
+  --primary-color-700: hsla(142, 75.3%, 27.5%, 1);
+  
+  // --primary-color-900: hsla(144, 61.2%, 20.2%, 1);
+
+  --font-color: hsl(219, 42%, 11%);
+  --font-color-secondary: hsla(215, 14%, 34%, 1);
+
+  --divider: hsla(216, 12.2%, 83.9%, 1);
+
+  --danger-200: hsla(0, 84.2%, 85%, 1);
+  --danger-300: hsla(0, 84.2%, 75%, 1);
+  --danger-400: hsla(0, 84.2%, 65%, 1);
+  --danger-500: hsla(0, 84.2%, 60.2%, 1);
+  --danger-600: hsla(0, 72.2%, 50.6%, 1);
+
+  --action-500: hsla(217, 91.2%, 59.8%, 1);
+  --action-600: hsla(221, 83.2%, 53.3%, 1);
+  --action-700: hsla(224, 76.3%, 48%, 1);
+}

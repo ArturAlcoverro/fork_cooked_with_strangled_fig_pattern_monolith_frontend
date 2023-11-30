@@ -1,0 +1,22 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.head{
+  margin-bottom: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+
+  .actions {
+    display: flex;
+    gap: .5rem;
+  }
+}
+
+.modal {
+  background-color: red;
+}
